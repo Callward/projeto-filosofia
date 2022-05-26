@@ -2,26 +2,18 @@
 
 
 
-@font-face {
-  font-family:'love' ;
-  src: url('Olondona.otf')format('opentype');
-  font-weight: normal;
-  font-style: normal;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@1,900&family=Tiro+Bangla:ital@0;1&display=swap');
 
-}
-@font-face {
-  font-family: 'love2';
-  src: url(Olondon_.otf)format('opentype');
-  font-weight: normal;
-  font-style: normal;
+
+
   
-}
+
 :root{
       --cor0: #262626;
-      --cor1: #601E8F;
-      --cor2: #9D06FF;
-      --cor3: #9F95A6;
-      --cor4: #FFFFFF;
+      --cor01: #313539;
+      --cor02: #191D21;
+      --cor03:#000408;
+      
       
 }
 
@@ -39,18 +31,22 @@
   }
   
   a:hover {
+    
     padding: auto;
     opacity: 0.7;
-    background-color:rgba(0, 0, 0, 0.63);
+    
   }
   
   .logo {
-    font-size: 40px;
+    
+    font-size: 24px;
     text-transform: uppercase;
-    letter-spacing: 4px;
-    font-family: 'love2';
-
+    letter-spacing: 4px;  
    
+    
+ 
+
+    
   }
   
   nav {
@@ -58,12 +54,16 @@
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #23232e;
+    background: #23232e
     height: 8vh;
+    
+    font-family: 'Playfair Display', serif;
+    font-family: 'Tiro Bangla', serif;
+    
   }
   
   main {
-    background: url("bg.jpg") no-repeat center center;
+    
     background-size: cover;
     height: 92vh;
   }
@@ -118,6 +118,7 @@
   }
   
   .nav-list.active {
+    
     transform: translateX(0);
   }
   
@@ -145,17 +146,24 @@
   }
 nav#rr{
   
-  background-color:#23232e;
-  font-size: 17;
-  padding: 14px;
+  background-color:black;
+  font-size: 15px;
+  padding: 13px;
   text-decoration: none;
-
   
   transition-duration: 1s;
-  
+  margin-bottom: 15px;
   
 }
 
   
+header{
+ 
+  font-size: 20px;
+  text-align: center;
+  left: 50%;
+  top:50%;
+  background-color: #000408;
+}
 
 
