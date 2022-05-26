@@ -92,7 +92,8 @@
   }
   
   @media (max-width: 999px) {
-    body {
+    body { position: relative;
+     
       overflow-x: hidden;
     }
     .nav-list {
@@ -155,10 +156,13 @@ nav#rr{
   margin-bottom: 15px;
   
 }
-
+.head{
+  overflow-x: ;
+}
   
-header{
- 
+header{ 
+  
+  
   font-size: 20px;
   text-align: center;
   left: 50%;
